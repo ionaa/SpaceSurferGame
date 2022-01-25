@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Space Surfer</title>
+    <link rel="stylesheet" type="text/css" href="css/gameStyle.css">
+    <link rel="stylesheet" href="https://use.typekit.net/jfp0qoz.css">
+</head>
+
+<body>
+    <h1>Space Surfer</h1>
+    <p>Use your keyboard - a (left), w up), d (right), s (down) to collect stars.<br> Running into the spaceships will end the game.</p>
+    <div id="results">
+        <h1 id="test"></h1>
+        <form id="myform">
+            <input id="playername" type="text" placeholder=" Please enter your name to be added to our players list" required />
+        </form>
+        <h2 id="scoreComment">Our Player List</h2>
+        <ul></ul>
+    </div>
+    <div id="scoretotal">Score:<span id="score">0</span></div>
+    <canvas id="canvas" width="600" height="400">
+    </canvas>
+    <button type="button" id="clickstart">Start Game</button>
+    <button type="button" id="resetgame">Reset Game</button>
+    <script src="js/gameAction.js"></script>
+</body>
+
+</html>
